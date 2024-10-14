@@ -64,7 +64,8 @@ function displayChart(data) {
     const chartOptions = {
         scales: {
             y: {
-                beginAtZero: true  // Ensure the y-axis starts at 0
+                beginAtZero: true,  // Ensure the y-axis starts at 0
+                max: 1
             }
         },
         plugins: {
